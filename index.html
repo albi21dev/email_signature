@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+        /* Inline responsive styles for Gmail */
+        @media screen and (max-width: 480px) {
+            .responsive {
+                display: none;
+            }
+        }
+
+        /* Fix column width issues */
+        table {
+            table-layout: fixed;
+        }
+    </style>
+</head>
+<body>
+    <!-- Wrapper table -->
+    <table cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px; font-family: Inter, sans-serif;">
+        <tr>
+            <!-- Profile Image -->
+            <td class="responsive" style="width: 100px; padding: 0;">
+                <img src="public/profile.png" alt="Profile Picture" width="100" height="100" style="display: block;">
+            </td>
+            <!-- Text Content -->
+            <td style="padding-left: 10px;">
+                <table cellpadding="0" cellspacing="0" style="font-size: 14px; color: #333; width: 100%;">
+                    <tr>
+                        <td style="font-size: 18px; font-weight: 600; color: #000;">
+                            Alberto Venturi, M.Sc.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #666; padding-top: 5px;">
+                            <a href="mailto:ing.alberto.venturi@gmail.com" style="color: #666; text-decoration: none;">ing.alberto.venturi@gmail.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="color: #666;">
+                            +39 375 5751458 / +43 664 5986204
+                        </td>
+                    </tr>
+                    <!-- Social Media Icons -->
+                    <tr>
+                        <td style="padding-top: 10px;">
+                            <a href="https://www.linkedin.com/in/albertovmsc/" style="text-decoration: none; margin-right: 10px;">
+                                <img src="public/linkedin.png" alt="LinkedIn" width="20" height="20" style="display: inline-block;">
+                            </a>
+                            <a href="https://albi21dev.github.io/myportfolio/" style="text-decoration: none; margin-right: 10px;">
+                                <img src="public/github.png" alt="GitHub" width="20" height="20" style="display: inline-block;">
+                            </a>
+                            <a href="https://www.instagram.com/albi21pics/" style="text-decoration: none;">
+                                <img src="public/insta.png" alt="Instagram" width="20" height="20" style="display: inline-block;">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- Banner -->
+    <table cellpadding="0" cellspacing="0" style="width: 100%; margin-top: 10px;">
+        <tr>
+            <td class="responsive" style="text-align: left; padding: 0;">
+                <img src="public/banner.png" alt="Banner" style="width: 100%; max-width: 400px; height: auto; border: none;">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
